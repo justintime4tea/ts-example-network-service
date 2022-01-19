@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+    "lib": [
+      "es2020"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "declaration": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "removeComments": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "rootDirs": [
+      "src",
+      "test"
+    ],
+    "paths": {
+      "@package-name/*": [
+        "./*"
+      ]
+    },
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": [
+      "node",
+      "jest",
+      "reflect-metadata"
+    ],
+  }
+}

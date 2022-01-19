@@ -1,0 +1,14 @@
+/.vscode/
+/node_modules/
+/build/
+.idea/*
+/docs/
+dist
+/.github/
+
+.DS_Store
+coverage
+*.log
+
+package-lock.json
+yarn.lock
